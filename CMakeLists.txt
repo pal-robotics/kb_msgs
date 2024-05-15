@@ -19,6 +19,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Lookup.srv"
   "srv/Event.srv"
   "srv/Sparql.srv"
+  "msg/ActiveConcepts.msg"
   DEPENDENCIES builtin_interfaces
 )
 
