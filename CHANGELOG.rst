@@ -2,8 +2,8 @@
 Changelog for package kb_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.1.0 (2024-05-15)
+------------------
 * add a ActiveConcepts msg type (a list of string)
 * Contributors: Séverin Lemaignan
 
