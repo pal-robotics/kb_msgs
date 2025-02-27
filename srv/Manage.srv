@@ -5,9 +5,15 @@
 
 # fully reset the knowledge base: remove all statements
 # and delete all existing models
+# If `parameters` contains the string "keep_defaults", the default
+# ontology(ies) that was passed as a command-line parameter to 
+# KnowledgeCore is not removed.
+# In that case, the models are not deleted, they are instead
+# reset to their initial state.
 string CLEAR=clear
 # loads an external ontology (XML/RDF, n3, turtle or n-triple format)
 # into the knowledge base
+# `parameters` should contain exactly one URI to the ontology to load
 string LOAD=load
 # saves the knowledge base to the RDF format.
 # `parameters` should be [path, basename].
